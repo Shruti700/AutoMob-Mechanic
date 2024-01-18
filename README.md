@@ -21,6 +21,7 @@ The website you provided is a project developed using only HTML, CSS, and JavaSc
 
 6. **Project Deployment:**
    - The project is deployed on Netlify, and the live version can be accessed at [https://silly-gaufre-fd48fe.netlify.app](https://silly-gaufre-fd48fe.netlify.app).
-     **Specific instructions for testing**,:You must use 10-digit numbers as passwords for both the admin and regular users.
+
+**Specific instructions for testing:You must use 10-digit numbers as passwords for both the admin and regular users.**
 
 In summary, this project showcases a well-implemented web application with authentication, access control, service booking, and time-limited discount features, all developed using fundamental web technologies without relying on external libraries.
