@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Montserrat ;
+    src: url(Fonts/Montserrat-Medium.ttf);
+}
+html {
+    font-family: Montserrat;
+}
+@media screen and (max-width:400px){
+    main img{
+        height: 0;
+        width: 0;
+    }
+}
+body{
+    margin: 0;
+}
+header{
+    width: 98.5%;
+    height:6%;
+   top:6%;
+   padding-bottom: 1%;
+   padding-left: 2%;
+    background-color:rgb(10, 89, 153) ;
+}
+header a{ 
+    text-decoration: none;
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.nav{
+    float:right;
+}
+.nav a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav a:hover{
+    height: 6%;
+    border-top: 10px solid rgb(235, 62,154);
+    border-bottom: 10px solid rgb(235, 62,154);
+    background-color:rgb(235, 62, 154) ;
+}
+main{
+    width: 100%;
+    height: 40rem;
+    margin-top: 0%;
+    background: rgba(15, 98, 180, 0.442) ;
+    background-blend-mode: darken;
+    background-position: 100%;
+    background-size: cover;
+    text-align: center;
+}
+.slider {
+    
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+    background-image: url("/assets/home.jpg"),
+      url("/assets/home1.jpg"),url("/assets/home2.jpg");
+    background-attachment: scroll, scroll,scroll;
+    background-position: 0% 33%,33% 66% ,66% 100%;
+    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-size: 100%, 100%,100%;
+    animation: slide-background 10s cubic-bezier(0.50, 0.0, 0.50, 1) 3s infinite;
+  }
+main p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 2%;
+    padding-top: 25rem;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+main button{
+    background-color: rgb(235, 62, 154);
+    padding-top: 6px;
+    border-bottom-width: 0px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+}
+main button a {
+    text-decoration: none;
+    padding:2px;
+    color: white;
+}
+.mainb{
+    width: 100%;
+    height: 50rem;
+    margin: 10%;
+}
+.mainb #first{
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    font-size: large;
+}
+.mainb .content{
+    display: flex;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.aside{
+    display: inline;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.aside .list li{
+    display: block;
+    padding-bottom: 2%;
+    list-style-type: georgian;
+}
+.aside .list a{
+    display: block;
+    padding-top: 1% ;
+    padding-bottom: 2%;
+}
+.aside .button{
+    background-color: rgb(235, 62, 154);
+    padding-top: 6px;
+    border-bottom-width: 0px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    margin-left: 50%;
+}
+.aside .button a{
+    text-decoration: none;
+    padding:2px;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: rgb(10, 89, 153) ;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    
+}
+@keyframes slide-background {
+    0% { background-position: 0% 50%, 100vw 50%; }
+    25% { background-position: -100vw 50%, 0% 50%; }
+    25.01% { background-position: 100vw 50%, 0% 50%; }
+    50% { background-position: 100vw 50%, 0% 50%; }
+    75% { background-position: 0% 50%, -100vw 50%; }
+    100% { background-position: 0% 50%, 100vw 50%; }
+  }

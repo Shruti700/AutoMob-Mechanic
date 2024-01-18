@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Montserrat ;
+    src: url(Fonts/Montserrat-Medium.ttf);
+}
+html {
+    font-family: Montserrat;
+}
+#book{
+    background-color: rgb(235, 62, 154) ;
+    height: 6%;
+    border: 8px solid rgb(235, 62,154);
+}
+main h1{
+    text-align: center;
+}
+main h1 a{
+    color:rgb(235, 62,154) ;
+}
+.form2{
+    width: 40%;
+   float: left;
+   text-align: left;
+   margin: 3%;
+}
+main .content{
+    display: flex;
+}
+main .imgbox img{
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-right: 20%;
+    margin-top: 15%;
+}
+#form2 label{
+    display: block;
+    padding-bottom: 2px;
+}
+#form2 #name, #email, #myservice, #mycars, #car_model, #km{
+    width: 400px;
+    height: 25px;
+}
+#code{
+    width: 100px;
+    height: 30px;
+}
+#number{
+    width: 295px;
+    height: 25px;
+}
+button{
+    width: 50%;
+    height: 30px;
+    margin-left: 100%;
+    background-color: rgb(235, 62, 154);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor:progress;
+}

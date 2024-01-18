@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/appointment.css">
+    <script src="js/home.js" defer></script>
+    <title>AutoMob</title>
+</header>
+<body>
+    <header>
+        <a href="home.html">AutoMob Mechanic</a>
+        <div class="nav" id="nav">
+            <a href="services.html">Services</a> 
+            <a href="booking.html">Booking</a> 
+            <a href="mailto:contact@automob.co.in">contact@automob.co.in</a> 
+            <a> 999 999 999</a>
+        </div>
+    </header>
+<main>
+<br/>
+<h1>Schedule Your Appointment</h1>
+<br/>
+<form class="form3" method="post" action="booking-success.html">
+    <div id="form3">
+        <label id="appointment">Appointment Date:</label>
+        <input type="date" required>
+    </div>
+    <br/>
+    <div id="form3">
+        <label id="address">Address:</label>
+        <textarea cols="20" rows="3" required></textarea>
+    </div>
+    <br/>
+    <div id="form3">
+        <label id="city">City:</label>
+        <input type="text" placeholder="Mumbai, Pune" required>
+    </div>
+    <br/>
+    <div id="form3">
+        <label id="city">State:</label>
+        <input type="text" placeholder="Kerala, Maharashtra" required>
+    </div>
+    <br/>
+    <div id="form3">
+        <label id="notify">Send Notification:</label>
+        <input type="checkbox" id="notify" >Email &nbsp;
+        <input type="checkbox" id="notify2">SMS
+    </div>
+    <br/>
+    <button type="submit">Book</button>
+</form>
+</main>
+<br/>
+<hr>
+<footer>
+    Copyright &copy; 2020 AutoMob-Mechanic. All rights reserved.</footer>
+</body>
+</html>

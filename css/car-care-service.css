@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Montserrat ;
+    src: url(Fonts/Montserrat-Medium.ttf);
+}
+html {
+    font-family: Montserrat;
+}
+@media screen and (max-width:400px){
+    main img{
+        height: 0;
+        width: 0;
+    }
+}
