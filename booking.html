@@ -23,7 +23,7 @@
         <h1>Book <a>Your</a> Service</h1>
         <br />
         <div class="content">
-            <form class="form2">
+            <div class="form2">
                 <div id="form2">
                     <label id="name">Name</label>
                     <input type="text" id="name" placeholder="Enter your name" required>
@@ -88,8 +88,10 @@
                     <input type="number" id="km" placeholder="...km" required>
                 </div>
                 <br />
-                <button id="submit" >Schedule an Appointment</button>
-            </form>
+                <div id="btn">
+                <input type="button" id="submit" value="Schedule an appointment" onclick="go()" >
+            </div>
+            </div>
             <div class="imgbox">
                 <img src="/assets/booking.jpg" alt="booking.png">
             </div>

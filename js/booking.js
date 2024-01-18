@@ -1,5 +1,3 @@
-function check(){
-    location.href="./booking-success.html"
+function go(){
+    location.pathname="./booking-success.html"
 }
-const submit= document.getElementById("submit");
-submit.addEventListener('click',check());
