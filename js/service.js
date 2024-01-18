@@ -1,6 +1,6 @@
 // Get the paragraph element by its id
 var display = document.getElementById("timercheck");
-var logged=JSON.parse(sessionStorage.getItem("1")).timenow + 600000;
+var logged=JSON.parse(sessionStorage.getItem("1")).timenow + 100000;
 var present= Date.now(); 
 // Set the initial time in seconds
 var time = (logged-present)<600000? (logged-present)/1000: 0;
@@ -22,6 +22,9 @@ function updateTimer() {
   if (time < 0) {
     clearInterval(timer);
     display.style.display = "none";
+    document.getElementById('correct').style.display="none";
+    document.getElementById('strike').style.textDecoration="none"
+document.getElementById('save').style.display="none";
   }
 }
 
